@@ -1,0 +1,26 @@
+#Field Index	Type		Description
+#0		char	‘B’ for a buy order, ‘S’ for a sell order
+#1		int		unique order identifier (>0)
+#2		short	price in pence (>0)
+#3		int		quantity of order (>0)
+
+B,100322,5103,7500
+B,100323,5102,100
+B,100324,5102,100
+B,100325,5101,100
+B,100326,5103,100
+
+
+#Field Index	Type		Description
+#0		char	‘B’ for a buy order, ‘S’ for a sell order
+#1		int		unique order identifier (>0)
+#2		short	price in pence (>0)
+#3		int		quantity of order (>0)
+#4		int		peak size (>0)
+
+S,100345,5103,100000,10000
+S,100346,5105,100000,10000
+S,100347,5105,100000,10000
+S,100348,5104,100000,10000
+S,100349,5106,100000,10000
+S,100350,5107,100000,10000
